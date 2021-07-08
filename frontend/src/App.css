@@ -1,0 +1,18 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box; /* para que a margem e padding não estrapolem a largura deste elemento*/
+}
+
+html, body, #root {
+    height: 100%;   /*forçando para que a app tenha até 100% da altura da tela */
+}
+
+body {
+    background: #f5f5f5;
+}
+
+body, input, button {
+    font-family: Arial, Helvetica, sans-serif;
+}
